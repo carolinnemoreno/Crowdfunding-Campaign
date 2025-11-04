@@ -8,25 +8,23 @@
     <title></title>
 	<style>
 	
-	body{background-color: black;}
+	body{background: linear-gradient(to right, #DABDFA, #B9D2FE);}
 	
 	.principal{
 	width: 1080px;
-	min-height: 700px;
+	min-height: 500px;
 	background-color: white;
 	margin: auto;
 	margin-top: 55px;
-	border-radius: 5px;
+	border-radius: 5px;}
 	
-	
-	
-	}
 	.container{
 	width: 900px;
 	min-height: 20px;
 	background-color: white;
 	margin: auto;
 	margin-top: 55px;
+	margin-left:20px;
 	border-radius: 5px;
 	display:flex;
     justify-content: space-between;
@@ -40,7 +38,8 @@
 	color:purple;
 	font-size: 20px;
 	font-weight: bold;
-	
+	padding-left: 0;
+	margin-left:0;
 	
 	}
 	.button  {
@@ -61,12 +60,12 @@
 	}
 	
    #login {
-	background-color: purple;
+	background-color: #C392F6;
 	border-radius: 17px;
-	border-style: none;
-	padding: 7px 25px 7px 25px;
+	padding: 5px 10px 5px 10px;
 	color:white;
 	margin-left:10px;
+	border: none;
 	}
 	
 	#login:hover{
@@ -75,9 +74,9 @@
 	}
 	
 	img{
-	width: 700px;
-	height: 600px;
-	border-radius:40px;
+	width: 540px;
+	height: 400px;
+	border-radius:20px;
 	padding-left: 10px;
 	}
 	
@@ -86,7 +85,62 @@
 	}
 	
 	.img-texto p {
-
+	padding-left: 50px;
+	font-size: 12px;
+	
+	}
+	.texto{
+	width: 400px;
+	height: 400px;
+	}
+	
+	h1,h2{
+	padding-left:50px;
+	margin-bottom: 0;
+	margin-top:0;
+	}
+	.barra-purple{
+	width: 300px;
+	height: 10px;
+	background-color: #8BB5FD;
+	border-radius: 5px;
+	margin-left: 50px;
+	}
+	.barra-azul{
+	width: 150px;
+	height: 10px;
+	background-color: #C392F6;
+	border-radius: 5px;
+	margin-left: 1px;
+	}
+	#goal{
+	padding-top:20px;
+	padding-left:5px;
+	}
+	
+	.btn-C{
+	
+	background-color:#C392F6 ;
+	border-radius: 17px;
+	padding: 5px 10px 5px 10px;
+	color:white;
+	margin-left:10px;
+	border: none;
+	}
+	.text-daysLeft{
+	padding-right:15px;
+	}
+	
+	.text-num2{
+	
+     padding-right:18px;
+	}
+	.footer{
+	display:flex;
+	margin-top: 50px;
+	margin-right:35px;
+	
+    margin-left: 60px;
 	}
 	
 	</style>
@@ -105,10 +159,6 @@
 	<button id="login">Login</button>
 	</div>
 	
-	
-	
-	
-	
 	</div>
 	<div class="img-texto">
 	<img src="doctors.png">
@@ -117,14 +167,27 @@
 	<h1>Cancer Research</h1>
 	<p>Millions face the harsh reality of cancer, leaving families yearning for hope. But at Project Spark, we reject despair. We believe in pushing the boundaries of research, igniting innovative solutions to conquer this complex disease. </p>
 	<p>ur dedicated scientists are explorers, delving into groundbreaking therapies and cutting-edge technology. Their mission? To unlock new frontiers in cancer treatment, bringing us closer to a world free of its pain. But we can’t do it alone. Donate today, fuel our mission, and together, let’s spark the change we all hope for. Together, we can conquer cancer.</p>
+	<h2>$27.000</h2>
+	<div class="barra-purple">
+	<div class="barra-azul">
+	<p id="goal">From $800.000 goal</p>
 	</div>
 	</div>
+	
+	<div class="footer">
+	<div class="text-daysLeft">2 </br> Days left </div>
+	<div class="text-num2">71.500 </br>patient</div>
+	<button class="btn-C">Contribute</button>
+	<button class="btn-C">Follow</button>
+
+	
+	
 	</div>
 	
 	
 	
+	</div>
 	
+	</div>
 	</body>
 </html>
-
-
